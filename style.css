@@ -1,0 +1,131 @@
+/* Reset some default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Main container */
+.main-body {
+    width: 90%;
+    max-width: 600px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 20px;
+}
+
+/* Header styling */
+.header-container {
+    text-align: center;
+    padding: 10px;
+    background-color: #0073e6;
+    color: white;
+    border-radius: 8px 8px 0 0;
+}
+
+.header-container h1 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.header-container a {
+    color: #f4f4f4;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.header-container a:hover {
+    text-decoration: underline;
+}
+
+/* Logo and company name */
+.header-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.header-name img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.header-name h1 {
+    font-size: 1.8rem;
+    color: #333;
+}
+
+/* Body content */
+.body-container {
+    text-align: center;
+    padding: 15px;
+   
+}
+
+/* Title and support information */
+.title-name h1 {
+    font-size: 1.4rem;
+    color: #0073e6;
+    margin-bottom: 10px;
+}
+
+.title-name p {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+/* Cards container */
+.cards-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Individual card styling */
+.cards {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.connect-container{
+    background-color: #0073e6;
+    padding: 4px;
+    width: 100%;
+    height: 170px;
+    justify-content: center;
+    align-items: center;
+}
+.connect-container-contents{
+    background-color: silver;
+    margin-left: 70px;
+    margin-top: 20px;
+    width: 350px;
+    height: 120px;
+    border-radius: 6px;
+}
+.connect-container-contents h1{
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 100px;
+    margin-top: 30px;
+}
