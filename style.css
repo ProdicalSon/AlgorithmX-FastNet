@@ -1,4 +1,4 @@
-/* Reset some default styling */
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    /* font-family: Arial, sans-serif; */
     background-color: #f4f4f4;
     color: #333;
     display: flex;
@@ -48,6 +48,13 @@ body {
     text-decoration: none;
     font-size: 0.9rem;
 }
+.header-container a:hover {
+    color: green;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
 
 .header-container a:hover {
     text-decoration: underline;
@@ -68,7 +75,7 @@ body {
 }
 
 .header-name h1 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     color: #333;
 }
 
@@ -124,15 +131,18 @@ body {
     cursor: pointer;
     justify-content: center;
     align-items: center;
+    border-radius: 4px;
 }
 .connect-container-contents{
     background-color: #ffffff;
     margin-left: 70px;
     margin-top: 20px;
     width: 350px;
+    padding: 2px;
     height: 120px;
     cursor: pointer;
     border-radius: 6px;
+    flex-direction: column;
 }
 .connect-container-contents h1{
     font-size: 15px;
@@ -140,6 +150,13 @@ body {
     margin-left: 100px;
     margin-top: 30px;
     
+}
+.connect-container-contents input{
+    padding: 5px;
+    border-radius: 5px;
+}
+.connect-container-contents input::placeholder{
+    font-size: 10px;
 }
 .card-details{
     height: 140px;
@@ -155,6 +172,9 @@ body {
     margin-left: 80px;
     border-radius: 8px;
     background-color: rgb(14, 221, 117);
+}
+.card-details p{
+    margin-top: 15px;
 }
 .btncontainer{
     width: 100%;
