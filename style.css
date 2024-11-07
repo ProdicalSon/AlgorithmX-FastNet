@@ -4,7 +4,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     /* font-family: Arial, sans-serif; */
     background-color: #f4f4f4;
@@ -15,8 +14,6 @@ body {
     min-height: 100vh;
     
 }
-
-
 .main-body {
     width: 90%;
     max-width: 600px;
@@ -27,8 +24,6 @@ body {
     padding: 10px;
     
 }
-
-
 .header-container {
    
     text-align: center;
