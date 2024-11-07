@@ -121,6 +121,7 @@ body {
     padding: 4px;
     width: 100%;
     height: 170px;
+    cursor: pointer;
     justify-content: center;
     align-items: center;
 }
@@ -130,6 +131,7 @@ body {
     margin-top: 20px;
     width: 350px;
     height: 120px;
+    cursor: pointer;
     border-radius: 6px;
 }
 .connect-container-contents h1{
@@ -137,11 +139,13 @@ body {
     font-weight: 600;
     margin-left: 100px;
     margin-top: 30px;
+    
 }
 .card-details{
     height: 140px;
     padding: 10px;
-    /* background-color: seagreen; */
+   
+  
 }
 .card-details h5{
     height: 20px;
@@ -156,6 +160,7 @@ body {
     width: 100%;
     height: 60px;
     padding: 20px;
+    cursor: pointer;
     border-radius: 0 0 4px 4px;
     background-color: #0073e6;
 }
@@ -166,4 +171,5 @@ body {
     border-radius: 4px;
     font-weight: 600;
     border: 0;
+    cursor: pointer;
 }
